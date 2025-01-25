@@ -46,7 +46,7 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
 
 Here is an image from my repository:
 
-![Example Image](images/Goto)
+![Example Image](images/Goto.png)
 
 
 
