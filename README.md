@@ -45,7 +45,7 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
 #### Gripper2_Belts.slx file 
 In this activity we are going to make a pick and place mechanism based robotic arm model. After you have went through all the instructions in the session and followed this repo carefully, you will end with this:
 
-video 
+![Alt text](anim.gif)
 
 ---
 
@@ -53,6 +53,8 @@ We have provided you with some blocks required for simulating the model. There a
 ![In Conn Image](images/IN_Conn.png)
 
 ### Gripper 
+The gripper consists of two plate-like structures that move closer to grip an object and farther apart to release it. Linear motion is achieved through prismatic joints, which are supported by a rod and post mechanism. The rod transfers motion, while the post stabilizes the prismatic joints. The base anchors the entire assembly, ensuring stable operation. This design is ideal for tasks like pick-and-place, where precise control is required to securely handle and transfer objects.
+
 
 You are provided with the following:
 ![Example Image](images/Gripp_IN.png)
@@ -81,11 +83,10 @@ Now we will move on to adding some Blocks on own. For this you need to use the L
 ### Transform Block:
 A Transform block in Simulink adjusts the position and orientation of an object or coordinate frame.
 
-Entry belt: Requires a -90° rotation to align with the 90° turn of the system.
-Exit belt: Requires a 180° flip because the material exiting the incoming belt is reversed and turned to flow correctly on the outgoing belt.
+- Entry belt: Requires a -90° rotation to align with the 90° turn of the system.
+- Exit belt: Requires a 180° flip because the material exiting the incoming belt is reversed and turned to flow correctly on the outgoing belt.
 
-Offset
-Offsets in translation refer to the positional shift or displacement of an object or point relative to a reference coordinate system or origin. In simple terms, they define how far an object is moved along the X, Y, and Z axes from a starting position.
+- Offsets in translation refer to the positional shift or displacement of an object or point relative to a reference coordinate system or origin. In simple terms, they define how far an object is moved along the X, Y, and Z axes from a starting position.
 
 #### Transform Belt Out 
 
@@ -121,6 +122,12 @@ image
 
 Now, we will make the connections within all these Blocks. Refer the following:
 ![Example Image](images/Complete_Conn.png)
+
+Click on the **Run** Button at the top, the Simulation will start. 
+
+![Alt text](anim.gif)
+
+We Hope you guys enjoyed :) 
 
 
 
