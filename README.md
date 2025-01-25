@@ -44,6 +44,9 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
 
 #### Gripper2_Belts.slx file 
 
+Here is an image from my repository:
+
+![Example Image](images/Goto)
 
 
 
