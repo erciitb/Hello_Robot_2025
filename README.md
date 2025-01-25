@@ -43,10 +43,86 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
 4. Open Folder/Examples/3D/Gripper2_Belts/Gripper2_Belts.slx file
 
 #### Gripper2_Belts.slx file 
+In this activity we are going to make a pick and place mechanism based robotic arm model. After you have went through all the instructions in the session and followed this repo carefully, you will end with this:
 
-Here is an image from my repository:
+video 
 
+---
+
+We have provided you with some blocks required for simulating the model. There are no connections made into it and when you run this file, Your matlab will be flooded with errors. So lets get into making this work! 
+![In Conn Image](images/IN_Conn.png)
+
+### Gripper 
+
+You are provided with the following:
+![Example Image](images/Gripp_IN.png)
+
+Hope you got a good understanding about how this gripper work, Check for the connections in the gripper block. This should be the final gripper model:
+
+![Example Image](images/Gripp_C.png)
+
+### Conveyer Belt 
+The Gripper Model Block in MATLAB simulates a gripper with rollers linked to revolute joints. These joints allow the rollers to rotate, and the transform rollers manage the positional adjustments. The model takes speed as input, which controls the rotation of the rollers, simulating the gripper’s movement for tasks like object manipulation.
+
+The Belt Out Box given to you has some incomplete connections. 
+![Example Image](images/Belt_Out_IN.png)
+
+Complete the following Connections:
+![Example Image](images/Belt_Out_C.png)
+
+The Belt In Block works on similar principle, You don't need to do any changes to that.
+
+So, this was about some major modelling related part of the belt and gripper.
+Now we will move on to adding some Blocks on own. For this you need to use the Library Browser at the top tab area in Matlab. You can search for any component and add it to your simulink model and drag or double click. 
+
+#### World Frame: 
+- Search for "world frame" in the library browser and add it you slx file.
+
+### Transform Block:
+A Transform block in Simulink adjusts the position and orientation of an object or coordinate frame.
+
+Entry belt: Requires a -90° rotation to align with the 90° turn of the system.
+Exit belt: Requires a 180° flip because the material exiting the incoming belt is reversed and turned to flow correctly on the outgoing belt.
+
+Offset
+Offsets in translation refer to the positional shift or displacement of an object or point relative to a reference coordinate system or origin. In simple terms, they define how far an object is moved along the X, Y, and Z axes from a starting position.
+
+#### Transform Belt Out 
+
+- Search for "rigid transform", add it your model and name it as "Transform Belt Out".
+- Double Click on the Block and do the following changes: 
+![Example Image](images/Transform_belt_out.png)
+  
+#### Transform Belt In
+
+- Search for "rigid transform", add it your model and name it as "Transform Belt In".
+- Double Click on the Block and do the following changes: 
+![Example Image](images/Transform_belt_in.png)
+
+### Goto Blocks
+
+#### Goto
+The Goto block in MATLAB is used in Simulink to transfer signals between different parts of a model. It allows you to send a signal from one block to another, even if the blocks are not directly connected. The Goto block helps improve model readability by avoiding long, tangled lines of connections.
+
+- Search for Goto in the library browser, place it in the simulink model as name "Goto".
+- Double Click on the Block and do the following changes:
 ![Example Image](images/Goto.png)
+
+#### Goto1
+- Search for Goto in the library browser, place it in the simulink model as name "Goto1".
+- Double Click on the Block and do the following changes:
+![Example Image](images/Goto1.png)
+
+So after adding all these blocks your slx file would be looking something like this:
+
+image 
+
+---
+
+Now, we will make the connections within all these Blocks. Refer the following:
+![Example Image](images/Complete_Conn.png)
+
+
 
 
 
