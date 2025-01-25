@@ -31,3 +31,21 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
 
 ---
 
+# Activity
+
+## Pick and Place Mechanism 
+
+### Instructions to open the Simulink Model in MATLAB
+
+1. Download the Zip file of repository using the green colored (CODE) button. 
+2. Extract the files into a folder. 
+3. In Current Folders Section in Matlab, Right Click on your folder and select 'Add to Path/Selected Folders and Subfolders'
+4. Open Folder/Examples/3D/Gripper2_Belts/Gripper2_Belts.slx file
+
+#### Gripper2_Belts.slx file 
+
+
+
+
+
+
