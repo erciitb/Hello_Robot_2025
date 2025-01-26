@@ -17,12 +17,13 @@ Welcome to the Hello Robot Workshop! In this workshop, we will cover various rob
    - After downloading, run the installer and follow the on-screen instructions.
 
 4. **Install Additional Toolboxes** :
-   - You will be asked to select products to be installed, So over there you need to tick on hte following Add Ons: 
-    Matlab
-    Simulink 
-    Simscape
-    Simscape Multibody
-    Simulink 3D animation 
+   You will be asked to select products to be installed, So over there you need to tick on the following Add Ons: 
+
+    -Matlab
+    -Simulink 
+    -Simscape
+    -Simscape Multibody
+    -Simulink 3D animation 
  
 
 6. **Activate MATLAB**:
