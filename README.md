@@ -3,6 +3,9 @@
 
 Welcome to the Hello Robot Workshop! In this workshop, we will cover various robotics topics such as control systems, kinematics, and robot simulations using MATLAB. Please follow the instructions below to get started with MATLAB installations, inverted pendulum balancing, kinematics, and robot simulations.
 
+Slides for the session : ![Slides](Copy of Mechanical Articulating Axes Project Proposal by Slidesgo.pptx(1))
+
+
 ---
 
 ### Steps for Installation:
