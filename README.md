@@ -118,16 +118,13 @@ The Goto block in MATLAB is used in Simulink to transfer signals between differe
 - Double Click on the Block and do the following changes:
 ![Example Image](images/Goto1.png)
 
-So after adding all these blocks your slx file would be looking something like this:
-
-image 
-
----
 
 Now, we will make the connections within all these Blocks. Refer the following:
 ![Example Image](images/Complete_Conn.png)
 
 Click on the **Run** Button at the top, the Simulation will start. 
+
+The slx file with all connections made is given ![here](Gripper_2Belts_F.slx)
 
 ![Alt text](anim.gif)
 
