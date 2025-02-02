@@ -125,7 +125,7 @@ Now, we will make the connections within all these Blocks. Refer the following:
 
 Click on the **Run** Button at the top, the Simulation will start. 
 
-The slx file with all connections made is given : [Download Simulink File](Gripper_Belts_F.slx)
+The slx file with all connections made is given : [Download Simulink File](Gripper_2Belts_F.slx)
 
 
 ![Alt text](anim.gif)
