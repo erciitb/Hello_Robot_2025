@@ -3,7 +3,8 @@
 
 Welcome to the Hello Robot Workshop! In this workshop, we will cover various robotics topics such as control systems, kinematics, and robot simulations using MATLAB. Please follow the instructions below to get started with MATLAB installations, inverted pendulum balancing, kinematics, and robot simulations.
 
-Slides for the session : ![Slides](slides.pdf)
+Slides for the session : [Download PDF](slides.pdf)
+
 
 
 ---
@@ -124,7 +125,8 @@ Now, we will make the connections within all these Blocks. Refer the following:
 
 Click on the **Run** Button at the top, the Simulation will start. 
 
-The slx file with all connections made is given ![here](Gripper_2Belts_F.slx)
+The slx file with all connections made is given : [Download Simulink File](Gripper_Belts_F.slx)
+
 
 ![Alt text](anim.gif)
 
